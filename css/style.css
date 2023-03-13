@@ -76,3 +76,18 @@ p {
   top: -5%;
   right: 0%;
 }
+footer {
+  background-color: blanchedalmond;
+  position: fixed;
+  border: 5px solid black;
+  bottom: -2%;
+  left: 38%;
+}
+
+.nav_ul {
+  display: flex;
+  padding-right: 37px;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 30px;
+}

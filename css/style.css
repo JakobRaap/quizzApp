@@ -34,12 +34,14 @@ h1 {
   font-size: 40px;
   box-shadow: 5px 5px 10px grey;
 }
-p {
+
+.question_p {
   font-family: "comic sans MS";
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
 }
+
 .answer_button {
   margin-left: 40%;
   margin-right: 40%;
@@ -92,6 +94,9 @@ footer {
   gap: 30px;
 }
 
+.placeholder {
+  height: 150px;
+}
 /* BOOKMARKPAGE */
 
 .pic_and_name {
@@ -111,4 +116,11 @@ footer {
 }
 .nametag {
   margin-left: 30px;
+}
+.counter_section {
+  display: flex;
+}
+.question {
+  display: flex;
+  border: 2px solid grey;
 }

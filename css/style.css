@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.blackbox {
+  border: 10px rgb(62, 40, 90) solid;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  border-radius: 40px;
+  font-family: "comic sans MS";
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
+}
+
+h1 {
+  color: rgb(106, 106, 240);
+  font-size: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

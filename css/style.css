@@ -23,14 +23,16 @@ h1 {
   border: 3px rgb(62, 40, 90) solid;
   background-color: aliceblue;
   display: flex;
+  position: relative;
   flex-direction: column;
   width: auto;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 4px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2.5%;
   font-size: 40px;
+  box-shadow: 5px 5px 10px grey;
 }
 p {
   font-family: "comic sans MS";
@@ -52,4 +54,25 @@ p {
 }
 .answer_button:hover {
   background-color: rgb(254, 243, 120);
+}
+.hashtags {
+  font-size: 20px;
+  color: rgb(170, 166, 166);
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 40px;
+  font-family: "comic sans MS";
+}
+.hashtags_article {
+  display: flex;
+  border: 1px rgb(62, 40, 90) solid;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.bookmark {
+  position: absolute;
+  top: -5%;
+  right: 0%;
 }

@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "comic sans MS";
 }
 .blackbox {
   border: 10px rgb(62, 40, 90) solid;
@@ -34,12 +35,14 @@ h1 {
   font-size: 40px;
   box-shadow: 5px 5px 10px grey;
 }
-p {
+
+.question_p {
   font-family: "comic sans MS";
   margin-left: 20%;
   margin-right: 20%;
   text-align: center;
 }
+
 .answer_button {
   margin-left: 40%;
   margin-right: 40%;
@@ -76,12 +79,18 @@ p {
   top: -5%;
   right: 0%;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 footer {
   background-color: blanchedalmond;
+  display: flex;
   position: fixed;
-  border: 5px solid black;
+  border: 10px solid rgb(88, 88, 88);
+  align-self: center;
   bottom: -2%;
-  left: 38%;
+  box-shadow: 0px 0px 20px 10px grey;
 }
 
 .nav_ul {
@@ -90,4 +99,44 @@ footer {
   list-style: none;
   justify-content: flex-start;
   gap: 30px;
+}
+
+.placeholder {
+  height: 150px;
+}
+/* BOOKMARKPAGE */
+
+.pic_and_name {
+  display: flex;
+
+  margin-left: 14%;
+  margin-right: 14%;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  font-size: 50px;
+}
+
+.profile_pic {
+  border-radius: 100%;
+  border: 8px solid grey;
+}
+.nametag {
+  margin-left: 30px;
+}
+.counter_section {
+  display: flex;
+
+  justify-content: center;
+  gap: 10%;
+}
+.question {
+  display: flex;
+  border: 2px solid grey;
+  align-items: center;
+  font-size: 50px;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
 }

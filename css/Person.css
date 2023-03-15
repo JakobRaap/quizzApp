@@ -1,6 +1,5 @@
-.pic_and_name {
+.person {
   display: flex;
-
   margin-left: 14%;
   margin-right: 14%;
   justify-content: center;
@@ -9,10 +8,10 @@
   font-size: 50px;
 }
 
-.profile_pic {
+.person__picture {
   border-radius: 100%;
   border: 8px solid grey;
 }
-.nametag {
+.person__nametag {
   margin-left: 30px;
 }

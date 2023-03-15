@@ -1,0 +1,16 @@
+.counter_section {
+  display: flex;
+
+  justify-content: center;
+  gap: 10%;
+}
+.question {
+  display: flex;
+  border: 2px solid grey;
+  align-items: center;
+  font-size: 50px;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}

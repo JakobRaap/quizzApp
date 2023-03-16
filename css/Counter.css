@@ -4,7 +4,7 @@
   justify-content: center;
   gap: 10%;
 }
-.question {
+.counter_section__questionandbookmark {
   display: flex;
   border: 2px solid grey;
   align-items: center;

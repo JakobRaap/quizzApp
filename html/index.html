@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="./js/index.js" defer></script>
   </head>
 
   <header>
@@ -16,57 +17,62 @@
 
   <body>
     <section>
-      <section class="question_card">
+      <section class="qcard">
         <img
-          class="bookmark"
+          class="qcard__bookmark"
           src="https://cdn-icons-png.flaticon.com/512/709/709496.png"
           width="70"
           alt="bookmark image"
         />
-        <p class="question_p">
+        <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="answer_button">Show Answer</button>
-        <article class="hashtags_article">
-          <ul class="hashtags">
+        <button class="qcard__answer-button" data-js="logging-button">
+          Show Answer
+        </button>
+        <p class="qcard__answer" id="answer_one"></p>
+        <article class="qcard__hashtags__article">
+          <ul class="qcard__hashtags">
             <li>#1</li>
             <li>#2</li>
             <li>#3</li>
           </ul>
         </article>
       </section>
-      <section class="question_card">
+      <section class="qcard">
         <img
-          class="bookmark"
+          class="qcard__bookmark"
           src="https://cdn-icons-png.flaticon.com/512/709/709496.png"
           width="70"
           alt="bookmark image"
         />
-        <p class="question_p">
+        <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="answer_button">Show Answer</button>
-        <article class="hashtags_article">
-          <ul class="hashtags">
+        <button class="qcard__answer-button">Show Answer</button>
+        <p class="qcard__answer" id="answer_two">Lorem ipsum dolor sit!</p>
+        <article class="qcard__hashtags__article">
+          <ul class="qcard__hashtags">
             <li>#1</li>
             <li>#2</li>
             <li>#3</li>
           </ul>
         </article>
       </section>
-      <section class="question_card">
+      <section class="qcard">
         <img
-          class="bookmark"
+          class="qcard__bookmark"
           src="https://cdn-icons-png.flaticon.com/512/709/709496.png"
           width="70"
           alt="bookmark image"
         />
-        <p class="question_p">
+        <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="answer_button" href="#">Show Answer</button>
-        <article class="hashtags_article">
-          <ul class="hashtags">
+        <button class="qcard__answer-button" href="#">Show Answer</button>
+        <p class="qcard__answer" id="answer_three"></p>
+        <article class="qcard__hashtags__article">
+          <ul class="qcard__hashtags">
             <li>#1</li>
             <li>#2</li>
             <li>#3</li>
@@ -78,7 +84,7 @@
 
     <footer>
       <nav>
-        <ul class="nav_ul">
+        <ul class="footer__nav_ul">
           <li>
             <img
               class="bookmark_footer"
@@ -101,6 +107,7 @@
               class="bookmark_footer"
               src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png"
               width="70"
+              onclick="window.location.href='http://127.0.0.1:3000/bookmarks/bookmarks.html';"
               alt="bookmark image"
             />
           </li>

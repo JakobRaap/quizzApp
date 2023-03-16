@@ -1,0 +1,17 @@
+.person {
+  display: flex;
+  margin-left: 14%;
+  margin-right: 14%;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  font-size: 50px;
+}
+
+.person__picture {
+  border-radius: 100%;
+  border: 8px solid grey;
+}
+.person__nametag {
+  margin-left: 30px;
+}

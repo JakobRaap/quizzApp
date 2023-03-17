@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="../js/index.js" defer></script>
   </head>
 
   <header>
@@ -27,10 +27,12 @@
         <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="qcard__answer-button" data-js="logging-button">
+        <button class="qcard__answer-button" data-js="answer-button-one">
           Show Answer
         </button>
-        <p class="qcard__answer" id="answer_one"></p>
+        <p class="qcard__answer qcard__answer--hide" data-js="answer_one">
+          test test test
+        </p>
         <article class="qcard__hashtags__article">
           <ul class="qcard__hashtags">
             <li>#1</li>
@@ -39,6 +41,7 @@
           </ul>
         </article>
       </section>
+
       <section class="qcard">
         <img
           class="qcard__bookmark"
@@ -49,8 +52,12 @@
         <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="qcard__answer-button">Show Answer</button>
-        <p class="qcard__answer" id="answer_two">Lorem ipsum dolor sit!</p>
+        <button class="qcard__answer-button" data-js="answer-button-two">
+          Show Answer
+        </button>
+        <p class="qcard__answer qcard__answer--hide" data-js="answer_two">
+          Lorem ipsum dolor sit!
+        </p>
         <article class="qcard__hashtags__article">
           <ul class="qcard__hashtags">
             <li>#1</li>
@@ -59,6 +66,7 @@
           </ul>
         </article>
       </section>
+
       <section class="qcard">
         <img
           class="qcard__bookmark"
@@ -69,8 +77,12 @@
         <p class="qcard__paragraph">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit?
         </p>
-        <button class="qcard__answer-button" href="#">Show Answer</button>
-        <p class="qcard__answer" id="answer_three"></p>
+        <button class="qcard__answer-button" data-js="answer-button-three">
+          Show Answer
+        </button>
+        <p class="qcard__answer qcard__answer--hide" data-js="answer_three">
+          Lorem ipsum dolor sit!
+        </p>
         <article class="qcard__hashtags__article">
           <ul class="qcard__hashtags">
             <li>#1</li>

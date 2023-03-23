@@ -1,5 +1,11 @@
 .addquestion__form {
   display: grid;
-  max-width: 500px;
+  width: 100%;
+  max-width: 660px;
   gap: 0.5em;
+  align-self: center;
+  margin-top: 2%;
+}
+.addquestion__body {
+  display: flex;
 }

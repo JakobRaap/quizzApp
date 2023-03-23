@@ -7,11 +7,15 @@
   width: auto;
   align-items: center;
   border-radius: 4px;
+  margin-top: 2.5%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 2.5%;
   font-size: 40px;
   box-shadow: 5px 5px 10px grey;
+  max-width: 760px;
+}
+h1 {
+  text-align: center;
 }
 .qcard:hover {
   background-color: rgba(52, 194, 216, 0.219);
@@ -19,7 +23,11 @@
   border-color: black;
   transition: 1s ease;
 }
-
+.qcard__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .qcard__paragraph {
   font-family: "comic sans MS";
   margin-left: 20%;

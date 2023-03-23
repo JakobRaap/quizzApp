@@ -7,7 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body>
+
+  <header>
+    <section class="blackbox">
+      <h1><strong>Quizz App</strong></h1>
+    </section>
+  </header>
+
+  <body class="addQuestion__body">
     <form class="addquestion__form">
       <fieldset class="addquestion__form">
         <legend>Add Questions</legend>
@@ -18,5 +25,42 @@
         <button data-js="addButton">Add to Cards</button>
       </fieldset>
     </form>
+    <footer>
+      <nav>
+        <ul class="footer__nav_ul">
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/126/126496.png"
+              width="70"
+              onclick="window.location.href='http://127.0.0.1:3000/html/index.html';"
+              alt="bookmark image"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/709/709496.png"
+              width="70"
+              alt="bookmark image"
+            />
+          </li>
+          <li>
+            <img
+              src="../bookmarkimages/add.png"
+              width="70"
+              onclick="window.location.href='http://127.0.0.1:3000/html/questions.html';"
+              alt="bookmark image"
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png"
+              width="70"
+              onclick="window.location.href='http://127.0.0.1:3000/bookmarks/bookmarks.html';"
+              alt="bookmark image"
+            />
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>

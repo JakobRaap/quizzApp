@@ -69,5 +69,12 @@
   right: 0%;
 }
 .qcard__answer {
+  font-size: 25px;
   padding-top: 0px;
+}
+.qcard__answer--hide {
+  color: transparent;
+}
+.qcard__answer--show {
+  color: black;
 }

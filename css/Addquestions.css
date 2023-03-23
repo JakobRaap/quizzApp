@@ -1,0 +1,5 @@
+.addquestion__form {
+  display: grid;
+  max-width: 500px;
+  gap: 0.5em;
+}

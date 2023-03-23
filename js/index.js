@@ -7,6 +7,9 @@ const answerButtonThree = document.querySelector(
 const answerTwo = document.querySelector('[data-js="answer_two"]');
 const answerThree = document.querySelector('[data-js="answer_three"]');
 const addButton = document.querySelector('[data-js="addButton"]');
+const bookmarkToggleOne = document.querySelector('[data-js="bookmark"]');
+const bookmarkToggleTwo = document.querySelector('[data-js="bookmarktwo"]');
+const bookmarkToggleThree = document.querySelector('[data-js="bookmarkthree"]');
 
 answerButtonOne.addEventListener("click", () => {
   answerOne.classList.toggle("qcard__answer--hide");
@@ -18,6 +21,16 @@ answerButtonTwo.addEventListener("click", () => {
 
 answerButtonThree.addEventListener("click", () => {
   answerThree.classList.toggle("qcard__answer--hide");
+});
+
+bookmarkToggleOne.addEventListener("click", () => {
+  bookmarkToggleOne.classList.toggle("qcard__bookmark--clicked");
+});
+bookmarkToggleTwo.addEventListener("click", () => {
+  bookmarkToggleTwo.classList.toggle("qcard__bookmark--clicked");
+});
+bookmarkToggleThree.addEventListener("click", () => {
+  bookmarkToggleThree.classList.toggle("qcard__bookmark--clicked");
 });
 
 let questions = [

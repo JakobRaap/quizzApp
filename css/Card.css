@@ -45,7 +45,7 @@
   box-shadow: 0px 0px 70px rgb(238, 255, 6);
   border-color: black;
   transition: 2s ease;
-  font-size: 44px;
+  font-size: 35px;
 }
 .qcard__hashtags {
   font-size: 20px;
@@ -68,6 +68,10 @@
   top: -5%;
   right: 0%;
 }
+.qcard__bookmark--clicked {
+  content: url(../bookmarkimages/bookmark_checked.png);
+}
+
 .qcard__answer {
   font-size: 25px;
   padding-top: 0px;

@@ -14,3 +14,6 @@ footer {
   justify-content: flex-start;
   gap: 30px;
 }
+.footer__nav_li {
+  border: 10px solid rgb(88, 88, 88);
+}

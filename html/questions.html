@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="../js/createquestion.js" defer></script>
   </head>
 
   <header>
@@ -14,8 +15,8 @@
     </section>
   </header>
 
-  <body class="addQuestion__body">
-    <form class="addquestion__form">
+  <body class="addQuestion__body" data-js="addquestion__body">
+    <form class="addquestion__form" data-js="newCardForm">
       <fieldset class="addquestion__form">
         <legend>Add Questions</legend>
         <label for="add_question">Question:</label>
@@ -30,7 +31,9 @@
           <label for="hashtag_three">#3:</label>
           <input type="text" name="hashtagThree" id="hashtag_three" />
         </section>
-        <button type="submit" data-js="addButton">Add to Cards</button>
+        <button type="submit" data-js="addButton" class="addquestion__button">
+          Add to Cards
+        </button>
       </fieldset>
     </form>
     <footer>

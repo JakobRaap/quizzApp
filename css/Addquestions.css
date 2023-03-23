@@ -8,8 +8,20 @@
 }
 .addquestion__body {
   display: flex;
+  justify-content: center;
 }
 .addquestion__hashtag_section {
   display: flex;
   gap: 20px;
+  justify-content: space-between;
+}
+.addquestion__button {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-size: 30px;
+  border-radius: 1px;
+  background-color: rgb(212, 202, 200);
+  border: 3px rgb(97, 93, 93) solid;
+  box-shadow: 2px 5px 10px grey;
+  padding-bottom: 0;
 }

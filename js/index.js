@@ -22,7 +22,6 @@ answerButtonTwo.addEventListener("click", () => {
 answerButtonThree.addEventListener("click", () => {
   answerThree.classList.toggle("qcard__answer--hide");
 });
-
 bookmarkToggleOne.addEventListener("click", () => {
   bookmarkToggleOne.classList.toggle("qcard__bookmark--clicked");
 });

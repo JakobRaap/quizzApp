@@ -9,3 +9,7 @@
 .addquestion__body {
   display: flex;
 }
+.addquestion__hashtag_section {
+  display: flex;
+  gap: 20px;
+}

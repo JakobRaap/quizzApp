@@ -18,11 +18,19 @@
     <form class="addquestion__form">
       <fieldset class="addquestion__form">
         <legend>Add Questions</legend>
-        <label for="add_question">Add question:</label>
-        <input type="text" id="add_question" />
-        <label for="add_answer">Add Answer:</label>
-        <input type="text" id="add_answer" />
-        <button data-js="addButton">Add to Cards</button>
+        <label for="add_question">Question:</label>
+        <input type="text" name="question" id="add_question" />
+        <label for="add_answer">Answer:</label>
+        <input type="text" name="answer" id="add_answer" />
+        <section id="hashtag_section" class="addquestion__hashtag_section">
+          <label for="hashtag_one">#1:</label>
+          <input type="text" name="hashtagOne" id="hashtag_one" />
+          <label for="hashtag_two">#2:</label>
+          <input type="text" name="hashtagTwo" id="hashtag_two" />
+          <label for="hashtag_three">#3:</label>
+          <input type="text" name="hashtagThree" id="hashtag_three" />
+        </section>
+        <button type="submit" data-js="addButton">Add to Cards</button>
       </fieldset>
     </form>
     <footer>

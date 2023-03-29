@@ -42,4 +42,4 @@ let questions = [
 ];
 console.log(questions[1].answer);
 
-function createCard(question, answer) {}
+
